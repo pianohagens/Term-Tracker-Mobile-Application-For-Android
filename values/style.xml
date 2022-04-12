@@ -1,0 +1,23 @@
+<resources>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton"/>
+
+    <!-- Base application theme. -->
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"> -->
+    <style name="mySpinnerStyle" parent="@android:style/Widget.Spinner">
+        <item name="android:divider">#01579B</item>
+        <item name="android:dividerHeight">1dp</item>
+
+
+    </style>
+    <!-- This configures the styles for the title within the Toolbar  -->
+    <style name="Toolbar.toolbar" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:titleTextColor">#FFFFFF</item>
+    </style>
+
+</resources>

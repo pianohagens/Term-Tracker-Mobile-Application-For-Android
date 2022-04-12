@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/end_notice"
+        android:title="End notification" />
+    <item
+        android:id="@+id/start_notice"
+        android:title="Start notification" />
+</menu>

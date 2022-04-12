@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/nav_header">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/myhome"
+            android:title="@string/nav_home_title"
+            android:textSize="24dp" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/mycalendar"
+            android:title="@string/nav_term_title"
+            android:textSize="24dp" />
+
+        <item
+            android:id="@+id/nav_courses"
+            android:icon="@drawable/mycourses"
+            android:title="@string/nav_course_title"
+            android:textSize="24dp" />
+
+        <item
+            android:id="@+id/nav_assessments"
+            android:icon="@drawable/myassessments"
+            android:title="@string/nav_assessments_title"
+            android:textSize="24dp" />
+
+        <item
+            android:id="@+id/nav_Instructor"
+            android:icon="@drawable/myinstructors"
+            android:title="@string/nav_instructor_title"
+            android:textSize="24dp" />
+    </group>
+
+</menu>
